@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Страница — 1" id="OMs_EjTb0JzcNWEpcXDY">
+    <mxGraphModel dx="1333" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="670" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_s5PsmVnriDB5kXC4VeQ-2" source="_s5PsmVnriDB5kXC4VeQ-4" target="_s5PsmVnriDB5kXC4VeQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-4" value="Пациент&lt;div&gt;(web/mobile app)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="275" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_s5PsmVnriDB5kXC4VeQ-2" source="_s5PsmVnriDB5kXC4VeQ-5" target="_s5PsmVnriDB5kXC4VeQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_s5PsmVnriDB5kXC4VeQ-2" source="_s5PsmVnriDB5kXC4VeQ-5" target="_s5PsmVnriDB5kXC4VeQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_s5PsmVnriDB5kXC4VeQ-2" source="_s5PsmVnriDB5kXC4VeQ-5" target="_s5PsmVnriDB5kXC4VeQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-5" value="Api Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="275" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_s5PsmVnriDB5kXC4VeQ-2" source="_s5PsmVnriDB5kXC4VeQ-6" target="_s5PsmVnriDB5kXC4VeQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-6" value="Ресепшн&lt;div&gt;(видят записи, управляют расписанием)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="90" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_s5PsmVnriDB5kXC4VeQ-2" source="_s5PsmVnriDB5kXC4VeQ-7" target="_s5PsmVnriDB5kXC4VeQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-7" value="Мед.специалисты&lt;div&gt;(доступ к картам пациентов, получают анализы)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="275" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_s5PsmVnriDB5kXC4VeQ-2" source="_s5PsmVnriDB5kXC4VeQ-8" target="_s5PsmVnriDB5kXC4VeQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-8" value="Кассиры&lt;div&gt;(проводят платежи,&lt;/div&gt;&lt;div&gt;работают с бухгалтерией)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="470" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-14" value="Склад&lt;div&gt;(1с)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="275" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-16" value="Бухгалтерия&lt;br&gt;(налоги, зп, отчетность, 1с)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="90" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-18" value="Аналитики&lt;div&gt;(data lake, анонимизированные данные)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="470" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-26" value="Запись на прием,&lt;div&gt;Просмотр анализов,&lt;/div&gt;&lt;div&gt;Оплата услуг&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_s5PsmVnriDB5kXC4VeQ-2">
+          <mxGeometry x="120" y="50" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-20" value="API лаборатории для анализов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-21" value="Платежная система" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_s5PsmVnriDB5kXC4VeQ-8" target="_s5PsmVnriDB5kXC4VeQ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s5PsmVnriDB5kXC4VeQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_s5PsmVnriDB5kXC4VeQ-7" target="_s5PsmVnriDB5kXC4VeQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="320" />
+              <mxPoint x="700" y="390" />
+              <mxPoint x="1010" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
